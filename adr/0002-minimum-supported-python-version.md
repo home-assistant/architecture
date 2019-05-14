@@ -1,6 +1,7 @@
 # 2. Minimum supported Python version
 
 Date: 2019-05-13
+
 Architecture issue: [#167](https://github.com/home-assistant/architecture/issues/167)
 
 ## Status
@@ -8,7 +9,6 @@ Architecture issue: [#167](https://github.com/home-assistant/architecture/issues
 Accepted
 
 ## Context
-
 
 Home Assistant currently sets the minimum Python requirement to whatever is shipped in Debian Stable. As most installations are now based on Docker, it is easier to upgrade.
 
@@ -21,7 +21,6 @@ Once a new minor Python version is released, the to be dropped minor version wil
 ## Consequences
 
 - June 1, 2019: Deprecate Python 3.5
-- August 1, 2019: Adopt that Home Assistant will support the latest 2 major releases of Python. This means that we drop support for Python 3.5.
+- August 1, 2019: Adopt that Home Assistant will support the latest 2 minor releases of Python. This means that we drop support for Python 3.5.
 
 We have three installation methods. Both Hass.io and Docker are already using the latest Python version. The next Debian Stable will ship with Python 3.7, so Hassbian users might not need to do anything besides updating their distro.
-
