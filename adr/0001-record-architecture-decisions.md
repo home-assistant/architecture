@@ -16,4 +16,6 @@ We will use Architecture Decision Records, as [described by Michael Nygard](http
 
 ## Consequences
 
+Introduces an additional burden on core project maintainers to diligently follow architecture discussions and record the results in this repo as an ADR.
+
 See Michael Nygard's article, linked above. For a lightweight ADR toolset, see Nat Pryce's [adr-tools](https://github.com/npryce/adr-tools).

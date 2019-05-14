@@ -1,6 +1,7 @@
 # 2. Minimum supported Python version
 
 Date: 2019-05-13
+Architecture issue: [#167](https://github.com/home-assistant/architecture/issues/167)
 
 ## Status
 
@@ -8,7 +9,6 @@ Accepted
 
 ## Context
 
-Architecture issue: [#167](https://github.com/home-assistant/architecture/issues/167)
 
 Home Assistant currently sets the minimum Python requirement to whatever is shipped in Debian Stable. As most installations are now based on Docker, it is easier to upgrade.
 
