@@ -29,5 +29,5 @@ Layer model:
 
 ## Consequences
 
-We don't merge PRs with useless data selectors. And remove available uneeded selectors to Home Assistant 1.0
+We don't merge PRs with data selectors. We remove existing unneeded selectors until Home Assistant 1.0.
 We focus us to a good view/frontend to select and group available data.
