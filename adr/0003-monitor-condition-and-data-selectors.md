@@ -10,7 +10,7 @@ Accepted
 
 ## Context
 
-A lot of Home Assistant integrations use config options like `CONF_MONITORED_CONDITIONS` to allow the user to select which data the integration should expose from the data. This means that the user needs to know what the different data points means while setting up the component/platform. While configuring it's Lovelace UI, the user has the option to include the entity or not. This means that we allow the user to pick twice.
+A lot of Home Assistant integrations use config options like `CONF_MONITORED_CONDITIONS` to allow the user to select which data the integration should expose from the data. This means that the user needs to know what the different data points mean while setting up the integration. While configuring its Lovelace UI, the user has the option to include the entity or not. This means that we allow the user to pick twice.
 
 ## Decision
 
