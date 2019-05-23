@@ -16,7 +16,7 @@ A lot of Home Assistant integrations use config options like `CONF_MONITORED_CON
 
 Integrations should expose all available data to the backend if that data is fetched in a single API request.
 
-We should redouce selector logic mostly to end point if it make sense in context of interface. User should not read available documentations and API descrition to find out which data they want have.
+Integrations should only include selector logic if it make sense in the context of interface, like if it would require extra requests. User should not have to read the available documentation and API descriptions to find out which data they want have.
 
 ```
 Layer model:
