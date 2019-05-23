@@ -10,7 +10,7 @@ Accepted
 
 ## Context
 
-Home Assistant components use mostly `CONF_MONITORED_CONDITIONS` or other config options that allow user to select which data the interface should send to backend. The user need known what the different data points means on setup of the component/platform. Later he can select the entity again, they he want see on UI.
+A lot of Home Assistant integrations use config options like `CONF_MONITORED_CONDITIONS` to allow the user to select which data the integration should expose from the data. This means that the user needs to know what the different data points means while setting up the component/platform. While configuring it's Lovelace UI, the user has the option to include the entity or not. This means that we allow the user to pick twice.
 
 ## Decision
 
