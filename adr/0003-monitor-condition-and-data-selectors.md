@@ -14,7 +14,7 @@ Home Assistant components use mostly `CONF_MONITORED_CONDITIONS` or other config
 
 ## Decision
 
-Home Assistant components/platforms should grap all available data and send this to backend. Available means data they are anyway sended from API to instance or if they need only spare resource to get all data.
+Integrations should expose all available data to the backend if that data is fetched in a single API request.
 
 We should redouce selector logic mostly to end point if it make sense in context of interface. User should not read available documentations and API descrition to find out which data they want have.
 
