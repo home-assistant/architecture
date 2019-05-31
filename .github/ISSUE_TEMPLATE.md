@@ -2,7 +2,7 @@
 
 The issue motivating this decision, and any context that influences or constrains the decision.
 
-## Decision
+## Proposal
 
 The change that you're proposing.
 
