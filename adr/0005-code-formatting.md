@@ -27,3 +27,5 @@ base. In place, a codebase with such formatting is:
 
 - Flake8: we set `max-line-length = 88` and `ignore = E501, W503` to `setup.cfg`.
 - Pylint: we disable `bad-continuation` on `pylintrc`
+
+On initial step, we create one big PR they change the format again codebase (tests/homeassistant).
