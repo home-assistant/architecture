@@ -19,14 +19,13 @@ base. In place, a codebase with such formatting is:
 
 ## Proposal
 
-- We use [Black](https://github.com/python/black) as code formatter for the back-end codebase
-- We use Black's default options
-- We utilize a bot (such as [the black_out bot](https://github.com/Mariatta/black_out)) to ensure PRs are appropriately formatted before being accepted
-- We recommend and document the set-up of Black, `pylint`, and `flake8` pre-commit hooks in the development environment
+- We use [Black](https://github.com/python/black) as code formatter for the back-end codebase.
+- We use Black's default options.
+- We utilize a bot (such as [the black_out bot](https://github.com/Mariatta/black_out)) to ensure PRs are appropriately formatted before being accepted.
+- We recommend and document the set-up of Black, `pylint`, and `flake8` pre-commit hooks in the development environment.
 
 ## Consequences
 
-- Flake8: we set `max-line-length = 88` and `ignore = E501, W503` to `setup.cfg`.
-- Pylint: we disable `bad-continuation` on `pylintrc`
-
-On initial step, we create one big PR they change the format again codebase (tests/homeassistant).
+- We retain Flake8, but set `max-line-length = 88` and `ignore = E501, W503` to `setup.cfg`.
+- We retain pylint, but disable all formatting checks.
+- Initially, we create a single PR to Black-ify the entire codebase (`homeassistant`) and tests (`tests/homeassistant`).
