@@ -2,7 +2,7 @@
 
 Date: 2019-07-08
 
-Architecture issue: [#252](https://github.com/home-assistant/architecture/issues/256)
+Architecture issue: [#256](https://github.com/home-assistant/architecture/issues/256)
 
 ## Status
 
