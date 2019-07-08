@@ -1,4 +1,4 @@
-# 4. Code Formatting
+# 5. Code Formatting
 
 Date: 2019-07-07
 
@@ -25,4 +25,5 @@ base. In place, a codebase with such formatting is:
 
 ## Consequences
 
-- We will need to determine what to do with style checking by `pylint`, `flake8`, etc.
+- Flake8: we set `max-line-length = 88` and `ignore = E501, W503` to `setup.cfg`.
+- Pylint: we disable `bad-continuation` on `pylintrc`
