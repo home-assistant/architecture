@@ -19,7 +19,7 @@ base. In place, a codebase with such formatting is:
 
 ## Proposal
 
-- We use [Black](https://github.com/python/black) as the de-facto code formatter for the entire back-end codebase
+- We use [Black](https://github.com/python/black) as code formatter for the back-end codebase
 - We use Black's default options
 - We utilize a bot (such as [the black_out bot](https://github.com/Mariatta/black_out)) to ensure PRs are appropriately formatted before being accepted
 
