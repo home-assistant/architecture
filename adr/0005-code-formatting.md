@@ -28,4 +28,3 @@ base. In place, a codebase with such formatting is:
 
 - We retain Flake8, but set `max-line-length = 88` and `ignore = E501, W503, E203` to `setup.cfg`.
 - We retain pylint, but disable `bad-continuation`.
-- Initially, we create a single PR to Black-ify the entire codebase (`homeassistant`) and tests (`tests/homeassistant`).
