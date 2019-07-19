@@ -39,4 +39,4 @@ Resulting in a single Docker base to maintain, while providing lots of benefits.
 - We need also move forward with the Python Wheels repository and the Home Assistant core pip installation for Docker environment. 
 - We need to migrate our regular Home Assistant Docker image into a Docker manifest.
 
-The plan is to complete this before the Home Assistant 1.0 release.
+The plan is to complete this before the Home Assistant 1.0 release. Debian based images are deprecated with accepting of this ADR.
