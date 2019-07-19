@@ -11,14 +11,32 @@ Accepted
 
 ## Context
 
-We have now `homeassistant/home-assistant` as amd64 image based on Debian Linux with a size of 761 (compressed). On the other side, we have `homeassistant/...-homeassistant` with support 5 architectures based on Alpine Linux with a size of 376 (compressed). This image is also used by Hass.io and the Dockerfiles are checked by hadolint and mostly best praxis. Hass.io support more components out of the box. We build in the background a wheels repository for Alpine and want to extend that support in the future. It's true that the image supports more components but TF and chrome are currently not supported out of the box.
+We have now `homeassistant/home-assistant` as an amd64 image, based on Debian Linux, with a size of 761 (compressed).
+
+On the other side, we have `homeassistant/...-homeassistant` with support for 5 different architectures based on Alpine Linux with a size of 376 (compressed). Hass.io uses these images.
+
+The Hass.io images follow (most) best practices, and the Dockerfiles are checked with hadolint.
+
+The Hass.io images support more integrations out of the box. Also, we pre-build all the Python Wheels for Alpine in the background. Additionally, support for pre-build Alpine packages is planned for the future.
+
+Even though, the Hass.io images support more integrations, some things are not supported on Alpine. For example, TensorFlow and Chrome (the last one is less of an issue now web scraping is banned in [ADR-0004](0004-webscraping.md)).
+
+In the current situation, we basically release and maintain two types of Docker images. The current Debian based one and the ones based on Alpine Linux. This requires us to solve issues twice or, in case of issues related to a specific Linux version, becomes harder to resolve to find out the culprit.
 
 ## Decision
 
-We are currently fragmented with 2 Docker images and build system. Our Docker team and resource are very limited and we should focus all our resource to one Project/image system. Otherwise, we need to solve every problem twice. Also, can the regular Docker installation improved by coming Hass.io feature with modular component installation and smaller images.
+Our Docker team and resources are limited and we should focus all our resource to one docker image.
 
-I want that we have one build system and `homeassistant/home-assistant` going to be a meta repository that points to the correct architecture of `homeassistant/...-homeassistant`.
+Our regular Docker installation can be improved by tagging along with the Hass.io images, which features a more modular approach, follow better practices, are well maintained, supports five architectures, and have smaller images. Users will benefit from the pre-builds we provide and deliver, which results in a faster set up and installation of integrations.
+
+We are going to transform our current `homeassistant/home-assistant` image into a Docker manifest image that provides multiple architectures. Each of the supported architectures in that manifest will point to one of the Alpine based Dockerfiles; we currently use for Hass.io: `homeassistant/...-homeassistant`.
+
+Resulting in a single Docker base to maintain, while providing lots of benefits.
 
 ## Consequences
 
-We need to extend the azure builds to support the tagging system `dev`, `beta` and `stable`.  We need also move forward with the wheels repository and the Home Assistant core pip installation for Docker environment. We are going to alias that image to the Hass.io Home Assistant version before the Home Assistant 1.0 release as it is actively maintained.
+- We need to extend the Azure builds to support the tagging system `dev`, `beta` and `stable`.
+- We need also move forward with the Python Wheels repository and the Home Assistant core pip installation for Docker environment. 
+- We need to migrate our regular Home Assistant Docker image into a Docker manifest.
+
+The plan is to complete this before the Home Assistant 1.0 release.
