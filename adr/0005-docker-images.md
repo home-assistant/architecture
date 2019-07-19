@@ -21,4 +21,4 @@ I want that we have one build system and `homeassistant/home-assistant` going to
 
 ## Consequences
 
-We need to extend the azure builds to support the tagging system `dev`, `beta` and `stable`.  We need also move forward with the wheels repository and the Home Assistant core pip installation for Docker environment.
+We need to extend the azure builds to support the tagging system `dev`, `beta` and `stable`.  We need also move forward with the wheels repository and the Home Assistant core pip installation for Docker environment. We are going to alias that image to the Hass.io Home Assistant version before the Home Assistant 1.0 release as it is actively maintained.
