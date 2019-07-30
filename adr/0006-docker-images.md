@@ -1,5 +1,5 @@
 
-# 5. Docker images
+# 6. Docker images
 
 Date: 2019-07-19
 
@@ -32,6 +32,11 @@ Our regular Docker installation can be improved by tagging along with the Hass.i
 We are going to transform our current `homeassistant/home-assistant` image into a Docker manifest image that provides multiple architectures. Each of the supported architectures in that manifest will point to one of the Alpine based Dockerfiles; we currently use for Hass.io: `homeassistant/...-homeassistant`.
 
 Resulting in a single Docker base to maintain, while providing lots of benefits.
+
+Timeline:
+- **0.96**: Start with new Tagging system
+- **0.97**: Maintain the end of homeassistant/home-assistant as debian based in Release Blogpost
+- **0.98**: Start with manifest tagging
 
 ## Consequences
 
