@@ -21,10 +21,10 @@ base. In place, a codebase with such formatting is:
 
 - We use [Black](https://github.com/python/black) as code formatter for the back-end codebase.
 - We use Black's default options.
-- We utilize a bot (such as [the black_out bot](https://github.com/Mariatta/black_out)) to ensure PRs are appropriately formatted before being accepted.
-- We recommend and document the set-up of `Black`, `pylint`, and `flake8` in the development environment.
+- We CI to ensure PRs are appropriately formatted before being accepted.
+- We recommend and document the setup of `Black`, `pylint`, and `flake8` in the development environment.
 
 ## Consequences
 
 - We retain Flake8, but set `max-line-length = 88` and `ignore = E501, W503, E203` to `setup.cfg`.
-- We retain pylint, but disable `bad-continuation`.
+- We retain pylint, but disable all formatting checks.
