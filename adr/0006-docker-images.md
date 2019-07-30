@@ -35,7 +35,7 @@ Resulting in a single Docker base to maintain, while providing lots of benefits.
 
 Timeline:
 - **0.96**: Start with new Tagging system
-- **0.97**: Maintain the end of homeassistant/home-assistant as debian based in Release Blogpost
+- **0.97**: Announce the end of Debian based homeassistant/home-assistant image with Release Blog Post
 - **0.98**: Start with manifest tagging
 
 ## Consequences
