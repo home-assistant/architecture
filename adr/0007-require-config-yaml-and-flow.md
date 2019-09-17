@@ -24,7 +24,7 @@ These many options for configuration also impacts how the integration is structu
 
 1. Integrations that only have a single platform puts the configuration under a platform key and just uses `async_setup_platform` to set up the platform.
 2. Integrations that have many platforms sometimes centralize the configuration to the integration domain name key and loads platforms via `discovery.async_load_platform`, which in turn calls `async_setup_platform`.
-3. If the integration has multiple platforms but doesn't have a centralized config, the user needs to enter config under the integration domain to set up the integration and each platform key to set up each platform. This loads each platform via `setup_platform`.
+3. If the integration has multiple platforms but doesn't have a centralized config, the user needs to enter config under the integration domain to set up the integration and each platform key to set up each platform. This loads each platform via `async_setup_platform`.
 4. Integrations that support config flow, uses `async_setup_entry` to set up the config entry for the integration and `config_entries.async_forward_entry_setup` to set up platforms. Setting up platforms via `discovery.load_platform` is not available for these integrations.
 
 All backend APIs in point 1-3 above also have sync versions, to further increase the options.
@@ -45,8 +45,8 @@ On more than one occassion Home Assistant official representatives have said tha
 ## Proposal
 
 1. We limit the configuration structure to one way for new integrations:
-  1. We require all yaml config for an integration to be located under the integration domain key in config yaml, for all new integrations.
-  2. We require both config yaml and config flow support for all new integrations.
+  - We require all yaml config for an integration to be located under the integration domain key in config yaml, for all new integrations.
+  - We require both config yaml and config flow support for all new integrations.
 2. We do not allow removing support for either config yaml or config flow in existing integrations.
 
 
