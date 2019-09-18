@@ -74,7 +74,7 @@ A code owner may open up a PR to removing oneself as a code owner. However, this
 
 ## Consequences
 
-This ADR may negative result in the following:
+This ADR may negatively result in the following:
 
 - Requiring code ownership may lead to fewer contributions.
 - Requiring code ownership may lead to new code owners, that don't take up on that ownership.
