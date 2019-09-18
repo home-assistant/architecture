@@ -34,7 +34,7 @@ During the design discussion of this ADR, it also became clear, that the term "c
 
 Code ownership for an integration defined:
 
-The willingness of a contributor to try, at best effort, to maintain the integration. Providing the intention for handling issues, providing bug fixes, or other contributions to the integration he is listed on as a code owner.
+The willingness of a contributor to try, at best effort, to maintain the integration. Providing the intention for handling issues, providing bug fixes, or other contributions to the integration one is listed on as a code owner.
 
 ### Rules
 
