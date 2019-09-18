@@ -12,7 +12,7 @@ Draft
 
 We get contributed a lot of new integrations, new features to integrations and refactors of integrations. The Home Assistant project is honored to receive so many great contributions to our project!
 
-Unfortunately, as a contributor, adding oneself as (the, or one of the) code owners of the integration contributed or contributed to, doesn't happen spontaneously that often.
+Unfortunately, as a contributor, adding oneself as (the, or one of the) code owners of the integration contributed or contributed to, doesn't always happen spontaneously.
 
 Not adding oneself as a code owner has drawbacks for the project:
 
