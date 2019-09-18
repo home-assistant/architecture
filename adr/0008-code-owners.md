@@ -18,7 +18,7 @@ Not adding oneself as a code owner has drawbacks for the project:
 
 - The contributor doesn't "own" (in terms of taking responsibility) his code, and thus contribution, in a more formal fashion.
 - Without being listed as a code owner, our GitHub bot will not notify the contributor, when an issue for the integration is reported, quite possibly affecting his contribution.
-- Most integrations end up with having no or a single code owner.
+- Integrations have ended up or may end up with having a single code owner or no code owners at all.
 
 As a result of this:
 
