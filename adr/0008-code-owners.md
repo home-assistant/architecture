@@ -40,7 +40,7 @@ The willingness of a contributor to try, at best effort, to maintain the integra
 
 ### Rules
 
-In order to support having (multiple) code owners for integration, to raise the quality and interaction on integration in our codebase, we have a set of rules (and exceptions in the next chapter).
+In order to support having (multiple) code owners for integration, to raise the quality and interaction on integration in our codebase, we have a set of rules (exceptions are in the next chapter).
 
 For the following cases, adding oneself as a code owner is required:
 
