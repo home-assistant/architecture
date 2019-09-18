@@ -28,6 +28,8 @@ As a result of this:
   - Do not benefit from multiple code owners being familiar with the integration in terms of code review and general turn-around time.
   - Become largely unmaintained when the single listed code owner can no longer contribute to the project.
 
+We have quite a few integrations that haven't got multiple code owners or don't have a code owner.
+
 During the design discussion of this ADR, it also became clear, that the term "code owner" has different meanings to our members and contributors. Some interpret it as an honorable mention of contribution; others see it as "taking responsibility".
 
 ## Decision
