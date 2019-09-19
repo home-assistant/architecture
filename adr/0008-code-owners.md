@@ -6,7 +6,7 @@ Architecture issue: [#287](https://github.com/home-assistant/architecture/issues
 
 ## Status
 
-Draft
+Accepted
 
 ## Context
 
