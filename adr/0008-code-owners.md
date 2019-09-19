@@ -70,7 +70,7 @@ Code owner(s) and Home Assistant code reviewers are encouraged to ask a contribu
 
 Withdrawing code ownership can happen, and it is sad to see an active code owner leaving the project.
 
-A code owner may open up a PR to removing oneself as a code owner. However, this should only be accepted after the last contribution to the integration, made by the contributor, is released in a stable Home Assistant release.
+A code owner may open up a PR to remove oneself as a code owner. However, this should only be accepted after the last contribution to the integration, made by the contributor, is released in a stable Home Assistant release.
 
 ## Consequences
 
