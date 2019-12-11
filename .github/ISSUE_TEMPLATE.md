@@ -1,6 +1,6 @@
 ## Context
 
-The issue motivating this decision, and any context that influences or constrains the decision.
+The issue motivating this decision, and any context that influences or constrains the decision. Your motivation cannot include that the frontend is not representing the data correctly, as that is a frontend issue.
 
 ## Proposal
 
