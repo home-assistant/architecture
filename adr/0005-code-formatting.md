@@ -27,4 +27,4 @@ base. In place, a codebase with such formatting is:
 ## Consequences
 
 - We retain Flake8, but set `max-line-length = 88` and `ignore = E501, W503, E203` to `setup.cfg`.
-- We retain pylint, but disable all formatting checks and `wrong-import-order`. The import order it handled by `isort`.
+- We retain pylint, but disable all formatting checks and `wrong-import-order`. The import order is handled by `isort`.
