@@ -22,9 +22,9 @@ base. In place, a codebase with such formatting is:
 - We use [Black](https://github.com/python/black) as code formatter for the back-end codebase.
 - We use Black's default options.
 - We CI to ensure PRs are appropriately formatted before being accepted.
-- We recommend and document the setup of `Black`, `pylint`, and `flake8` in the development environment.
+- We recommend and document the setup of `Black`, `pylint`, `flake8`, and `isort` in the development environment.
 
 ## Consequences
 
 - We retain Flake8, but set `max-line-length = 88` and `ignore = E501, W503, E203` to `setup.cfg`.
-- We retain pylint, but disable all formatting checks.
+- We retain pylint, but disable all formatting checks and `wrong-import-order`. The import order it handled by `isort`.
