@@ -27,7 +27,7 @@ Layer model:
   -------------      ---------      ------------
 ```
 
-Integrations can set the `entity_registry_enabled_default` property on their entity objects to instruct Home Assistant to disable certain entities by default.
+Integrations can set the `entity_registry_enabled_default` property on their entity objects to instruct Home Assistant to disable certain entities by default ([docs](https://developers.home-assistant.io/docs/en/entity_index.html#advanced-properties)).
 
 ## Consequences
 
