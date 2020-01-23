@@ -27,6 +27,8 @@ Layer model:
   -------------      ---------      ------------
 ```
 
+Integrations can set the `entity_registry_enabled_default` property on their entity objects to instruct Home Assistant to disable certain entities by default ([docs](https://developers.home-assistant.io/docs/en/entity_index.html#advanced-properties)).
+
 ## Consequences
 
 We don't merge PRs with data selectors. We remove existing unneeded selectors until Home Assistant 1.0.
