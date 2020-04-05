@@ -34,6 +34,17 @@ C. Harder for Home Assistant to support confused users and contributors and hard
 
 We limit the configuration yaml structure to one way for new integrations. We require all yaml config, if present, for an integration to be located under the integration domain key in config yaml, for all new integrations (point 2 above).
 
+```yaml
+# Allowed
+awesome_integration:
+  username: user
+
+# Not allowed
+sensor:
+  - platform: awesome_integration
+    username: user
+```
+
 ## Consequences
 
 - New integrations have to put the integration configuration section under the integration domain key if configuration yaml is used.
