@@ -12,7 +12,7 @@ Accepted
 
 There are currently many different ways of structuring an integration and its config in Home Assistant. We allow config YAML, either under the integration key or under platform keys with the integration name. We allow a config flow with configuration entered via the GUI, stored in config entries. We allow importing config YAML to a config entry via config flow.
 
-This ADR focusses on the configuration YAML structure and its use in integrations.
+This ADR focuses on the configuration YAML structure and its use in integrations.
 
 The many options for configuration impact how the integration is structured and what Home Assistant backend APIs are used.
 
