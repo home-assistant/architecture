@@ -43,6 +43,7 @@ awesome_integration:
 sensor:
   - platform: awesome_integration
     username: user
+```
 
 ## Consequences
 
