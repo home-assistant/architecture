@@ -71,6 +71,7 @@ We should drop the `title` from `strings.json` if the integration is for a produ
   }
   ```
 - Import all existing state attribute keys + translations from frontend
+- Replace as many existing translations as possible with references
 
 #### Frontend
 Load part of backend translations when necessary.
