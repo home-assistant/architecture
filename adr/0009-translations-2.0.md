@@ -72,6 +72,7 @@ We should drop the `title` from `strings.json` if the integration is for a produ
   ```
 - Import all existing state attribute keys + translations from frontend
 - Replace as many existing translations as possible with references
+- Convert moon and season sensor to have their own entities and use `strings.json` for translation
 
 #### Frontend
 Load part of backend translations when necessary.
@@ -91,5 +92,4 @@ Load part of backend translations when necessary.
 
 - Frontend will load faster and use less memory
 - Couple translations of integrations to the integration instead of the frontend release
-
-The `moon` and `season` integrations will no longer have their entities translated. I suggest that if we see a need to bring this back, we could consider migrating `moon` and `season` to not write sensor entities but instead have them write states under their own domain (`moon.moon`) like the `sun` integration does. They can then add `state` to their own `strings.json` which can then be loaded when the frontend loads.
+- Breaking change for `season` and `moon` entities config
