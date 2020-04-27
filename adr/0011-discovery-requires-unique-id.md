@@ -25,8 +25,8 @@ All existing integrations with discoverable config flows should be reviewed for
 possible ways to improve identification during discovery. A whitelist could be developed
 to allow existing integrations to remain functional under new requirements.
 
-If an unique id can sometimes not be available such as older devices that lack unique identifiers
-in zeroconf/ssdp/api/etc then the config entry should not be shown to user.
+If a unique id can not be made available, such as on older devices that lack unique identifiers
+in zeroconf/SSDP/API/etc, then the config entry should not be shown to the user.
 
 ## Decision
 
