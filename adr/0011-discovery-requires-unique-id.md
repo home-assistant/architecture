@@ -31,7 +31,7 @@ in zeroconf/ssdp/api/etc then the config entry should not be shown to user.
 ## Decision
 
 To protect project goals and to provide clarity to our users and contributors,
-we're introducing the following rules on how discoverable integrations need to be configured:
+we're introducing the following rules on how discoverable integrations need to be designed:
 
 - Integrations that are discoverable must provide an unique id (via `async_set_unique_id`) 
 to allow the user to ignore the discovered config entry.
