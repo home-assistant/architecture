@@ -9,7 +9,7 @@ Accepted
 ## Context
 
 There is a mechanism to ignore discovered config flows using unique ids attached to config flow
-but not all integrations may set a unique id due to lack of truly unique identifiers
+but not all integrations may set an unique id due to lack of truly unique identifiers
 or just not having been updated for concerns of backwards compatibility.
 
 This creates an UX issue that has started to become more pronounced with more config flows
