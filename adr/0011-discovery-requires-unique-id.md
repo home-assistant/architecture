@@ -41,6 +41,5 @@ for possible ways to improve identification during discovery.
 
 ## Consequences
 
-- Removes confusion and questions around the ability to ignore unwanted discoveries
-  for all users.
+- Removes confusion and questions around the ability to ignore unwanted discoveries.
 - This might impact the number of integrations that are able to be discovered.
