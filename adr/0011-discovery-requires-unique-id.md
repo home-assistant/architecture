@@ -22,11 +22,11 @@ All future integratons with discoverable config flows should be required to set 
 unique id during discovery.
 
 All existing integrations with discoverable config flows should be reviewed for
-possible ways to improve identification  during discovery. A whitelist could be developed
+possible ways to improve identification during discovery. A whitelist could be developed
 to allow existing integrations to remain functional under new requirements.
 
-If a unique id can sometimes not be available such as older devices lack identifiers in 
-zeroconf/ssdp/etc then the device should be prevented from being shown to user.
+If an unique id can sometimes not be available such as older devices that lack unique identifiers
+in zeroconf/ssdp/api/etc then the config entry should not be shown to user.
 
 ## Decision
 
