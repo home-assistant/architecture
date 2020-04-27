@@ -1,4 +1,4 @@
-# 0010. Discovery Requires Unique ID
+# 0011. Discovery Requires Unique ID
 
 Date: 2020-04-27
 
@@ -8,7 +8,7 @@ Accepted
 
 ## Context
 
-There is a mechnism to ignore discovered config flows using unique ids attached to config flow but not all integrations may set a unique id due to lack of truly unique identifiers or just not having been updated for concerns of backwards compatibility.
+There is a mechanism to ignore discovered config flows using unique ids attached to config flow but not all integrations may set a unique id due to lack of truly unique identifiers or just not having been updated for concerns of backwards compatibility.
 
 This creates an UX issue that has started to become more pronounced with more config flows being added every release (which is awesome!). The real issue is not all discovery processes are created equal and that becomes an issue for consistency.
 
