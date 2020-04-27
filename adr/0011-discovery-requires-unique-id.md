@@ -18,7 +18,7 @@ are created equal and that becomes an issue for consistency.
 
 ## Proposal
 
-All future integratons with discoverable config flows should be required to set an
+All new integratons with discoverable config flows should be required to set an
 unique id during discovery.
 
 All existing integrations with discoverable config flows should be reviewed for
