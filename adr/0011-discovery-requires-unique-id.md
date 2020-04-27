@@ -21,9 +21,9 @@ are created equal and that becomes an issue for consistency.
 All future integratons with discoverable config flows should be required to set an
 unique id during discovery.
 
-All existing integrations should be reviewed for possible ways to improve identification
-during discovery config flow. A whitelist could be developed to allow existing integrations
-to remain functional under new requirements.
+All existing integrations with discoverable config flows should be reviewed for
+possible ways to improve identification  during discovery. A whitelist could be developed
+to allow existing integrations to remain functional under new requirements.
 
 If a unique id can sometimes not be available such as older devices lack identifiers in 
 zeroconf/ssdp/etc then the device should be prevented from being shown to user.
