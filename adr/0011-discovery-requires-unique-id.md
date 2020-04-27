@@ -13,7 +13,7 @@ but not all integrations may set an unique id due to lack of truly unique identi
 or just not having been updated for concerns of backward compatibility.
 
 This creates an UX issue that has started to become more pronounced with more config flows
-being added every release (which is awesome!). The real issue is not all discovery processes 
+being added every release (which is awesome!). The real issue is that not all discovery processes 
 are created equal and that becomes an issue for consistency.
 
 ## Proposal
