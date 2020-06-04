@@ -40,12 +40,12 @@ There is a wide variety of containerization software available. From that perspe
 - **Installation**
   This requires the user to have an existing system that can run Docker containers. Installation is either done by running a command from the Docker-cli or via a user interface (Synology, Portainer)
 
-* **Start when the system is started:** up to the container manager that the user uses.
-* **Run with full network access:** Default installation instructions prescribe net=host but the user can diverge. Usually happens when the user decides it’s not the Docker-way.
-* **Access USB devices:** Responsibility of user.
+* **Start when the system is started:** User is responsible for configuring this.
+* **Run with full network access:** Default installation instructions prescribe net=host to be configured.
+* **Access USB devices:** It is up to the user to ensure that all devices are correctly passed through to the container.
 
 * **Maintenance Home Assistant installation**
-  If using the Docker-cli user needs to manually update the run command. If using a UI the user might be notified of an upgrade and automatically update. There is no rollback in case the instance does not come online after an update.
+  If using the Docker-cli the user needs to manually update the run command. If using a UI the user might be notified of an upgrade or automatically update – automatically applying updates may result in the system not coming back online. There is no rollback in case the instance does not come online after an update.
 
   - **Python upgrades:** Included in the Home Assistant container
   - **Installing Python dependencies:** Included in the Home Assistant container
