@@ -14,6 +14,8 @@ Define a supported installation method as per [ADR-0012](https://github.com/home
 
 This installation method provides the full Home Assistant experience on a regular operating system. This means, all components from the Home Assistant method are used, except for the Home Assistant Operating System. We don’t support using the host system for other applications than the Supervisor.
 
+The Supervisor is not just an application, it is a full appliance that manages the whole system. It will clean up, repair or reset settings to default if they no longer match expected values.
+
 By not using the Home Assistant Operating System, the user is responsible for making sure that all required components are installed and maintained. Required components and their versions will change over time. We are not responsible for issues that come up with your host or correcting a wrong configuration.
 
 This method is considered advanced and should only be used if one is an expert in managing a Linux operating system, Docker and networking.
