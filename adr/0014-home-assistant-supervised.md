@@ -28,8 +28,8 @@ Docker CE (Community Edition) is the only supported containerization method for 
 - Systemd >= 239
 - NetworkManager >= 1.18.0
 - Avahi >= 0.7
-- AppArmor == 2.13.x
-- Debian Linux Debian 10 aka Buster
+- AppArmor == 2.13.x (built into the kernel)
+- Debian Linux Debian 10 aka Buster (no derivatives)
 
 Only the above-listed version of Debian Linux is supported for running this installation method. When a new major version of Debian is released, the previous major version is dropped, with a deprecation time of 4 months. An exception to this rule occurs if the new version does not meet the requirements of the Supervisor.
 
