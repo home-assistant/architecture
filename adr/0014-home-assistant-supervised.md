@@ -48,26 +48,26 @@ In case any abnormality is detected that prevents Home Assistant from functionin
 ### Required Expertise
 
 - **Installation**
-  The user first needs to install a Linux-based operating system (i.e. Debian). They then need to run the installer script.
+  The user first needs to install Debian 10 and make sure all the required components are installed and are the correct version. They then need to run the installer script.
 
 * **Start when the system is started:** done by the installer
 * **Run with full network access:** done by the installer
 * **Access USB devices:** done by the installer
 
-* **Maintenance Home Assistant installation**
-  Home Assistant can be maintained from the Supervisor. Includes rollback when the update fails.
+* **Maintaining the Home Assistant installation**
+  Home Assistant can be maintained from the Supervisor. This includes a rollback when the update fails.
 
   - **Python upgrades:** Included in Home Assistant updates
   - **Installing Python dependencies:** Included in Home Assistant updates
   - **Updating Home Assistant:** Via the UI
 
-- **Maintenance Operating System**
+- **Maintaining the Operating System**
   The user is responsible for maintaining the operating system. Since it is a supervised installation, the user is also responsible for updating the components that are required by the Supervisor. The user is also responsible for not installing or changing anything on their system that will interfere with the Supervised installation. Examples are software that will update Docker containers managed by the Supervisor.
 
   - **Security updates for OS:** Responsibility of the user.
   - **Maintaining the components required for the Supervisor:** Responsibility of the user. Over time as Supervisor requirements change, you might have to upgrade your OS to be able to use the required version.
 
-**Conclusion:** Expert. Maintaining a Linux operating system to a very specific set of requirements is hard.
+**Conclusion:** Expert. Maintaining a Debian 10 installation to a very specific set of requirements is hard.
 
 ## Consequences
 
