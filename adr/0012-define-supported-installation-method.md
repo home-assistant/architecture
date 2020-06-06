@@ -22,7 +22,7 @@ This can be frustrating. Any guide on our official website should lead to a work
 
 A supported installation method in the Home Assistant context means:
 
-> A way of installing and running Home Assistant One, Home Assistant Container, Home Assistant Supervised or Home Assistant Core; in a way that is supported by the Home Assistant developers. Supported means the installation method is tested and documented in the official documentation. Running Home Assistant using such a supported method, leads to the optimal user experience.
+> A way of installing and running Home Assistant in a way that is supported by the Home Assistant developers. Supported means the installation method is tested and documented in the official documentation. Running Home Assistant using such a supported method, leads to the optimal user experience.
 
 The Home Assistant team will not prevent you from running Home Assistant using an unofficial method. However, we cannot help with issues that you encounter. We are open for contributions that improve compatibility with a community-supported method as long as they do not impact officially supported methods, add a significant amount of code exceptions or future maintenance burden on the Home Assistant development team.
 
