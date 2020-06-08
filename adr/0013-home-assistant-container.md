@@ -12,7 +12,7 @@ Define a supported installation method as per [ADR-0012](https://github.com/home
 
 ## Decision
 
-This is for running just the Home Assistant Core application on native OCI compatible containerization system. It does not provide the full Supervisor experience, and thus does not provide the Supervisor panel and add-ons.
+This is for running just the Home Assistant Core application on native OCI compatible containerization system. It does not provide the Supervisor experience, and thus does not provide the Supervisor panel and add-ons.
 
 This is a general installation method that is recommended as an alternative to the Home Assistant One installation method. Due to the shared image with the Home Assistant One installation method, almost all documentation applies to the Home Assistant Container as well.
 
@@ -28,8 +28,8 @@ The only supported way to run the container is on the host network as root with 
 
 ### Supported Operating Systems and versions
 
-- Running Home Assistant Container, is only supported on Linux.
-- Windows, and BSD installations (e.g., macOS and FreeBSD) are not supported.
+- Running Home Assistant Container is only supported on Linux.
+- Windows and BSD installations (e.g., macOS and FreeBSD) are not supported.
 
 ### Additional notes
 
