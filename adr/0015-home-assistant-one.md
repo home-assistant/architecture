@@ -14,11 +14,10 @@ Define a supported installation method as per [ADR-0012](https://github.com/home
 
 Home Assistant One is the full installation of our all-inclusive home automation system. Best in class home automation is complemented with a UI for configuring your system, making backups and safe updates with automatic rollback.
 
-This is the general recommended installation method and the one that our website and documentation should be focused on.
+This is the generally recommended installation method and the one that our website and documentation should be focused on.
 
 ### Supported boards/hardware/machines
 
-- Raspberry Pi 2
 - Raspberry Pi 3 Model B and B+ 32bit
 - Raspberry Pi 3 Model B and B+ 64bit
 - Raspberry Pi 4 Model B 32bit
@@ -40,13 +39,12 @@ When a new major version is released, the previous major version will be dropped
 
 The Home Assistant Operating System can be run on a Hypervisor and thus be run as a virtual machine. The following Hypervisors are supported:
 
-- TBD. Maybe:
 - VirtualBox
 - Proxmox
 - UnRaid
-- VMWare ESX
-- VMWare Workstation
-- HyperV
+- VMWare
+- Xen
+- Qemu
 
 ### Required Expertise
 
