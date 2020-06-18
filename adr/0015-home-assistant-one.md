@@ -1,4 +1,4 @@
-# 0015. Installation method: Home Assistant All-in-One
+# 0015. Installation method: Home Assistant OS
 
 Date: 2020-06-08
 
@@ -12,7 +12,7 @@ Define a supported installation method as per [ADR-0012](https://github.com/home
 
 ## Decision
 
-Home Assistant All-in-One is the full installation of our all-inclusive home automation system. Best in class home automation is complemented with a UI for configuring your system, making backups and safe updates with automatic rollback.
+Home Assistant OS is the full installation of our all-inclusive home automation system. Best in class home automation is complemented with a UI for configuring your system, making backups and safe updates with automatic rollback.
 
 This is the generally recommended installation method and the one that our website and documentation should be focused on.
 
