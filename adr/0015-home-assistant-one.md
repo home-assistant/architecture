@@ -40,11 +40,16 @@ When a new major version is released, the previous major version will be dropped
 The Home Assistant Operating System can be run on a Hypervisor and thus be run as a virtual machine. The following Hypervisors are supported:
 
 - VirtualBox
-- Proxmox
-- UnRaid
 - VMWare
 - Xen
 - Qemu
+
+We will provide documentation for the following systems build on top of these technologies:
+
+- VirtualBox
+- VMWare
+- Proxmox
+- UnRaid
 
 ### Required Expertise
 
