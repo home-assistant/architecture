@@ -39,7 +39,7 @@ This installation method can easily be broken if one manages the operating syste
 - All system dependencies are installed according to the manual.
 - No additional software, outside of the Home Assistant ecosystem, is installed.
 - Docker needs to be correctly configured to use overlayfs2 storage and journald as the logging driver.
-- NetworkManager is installed but not actively used.
+- NetworkManager is installed but doesn't need to be actively used.
 
 In case any abnormality is detected that prevents Home Assistant from functioning, the Home Assistant Supervisor will report this to the user and block updates to prevent installations from breaking.
 
@@ -48,11 +48,11 @@ In case any abnormality is detected that prevents Home Assistant from functionin
 - **Installation**
   The user first needs to install Debian 10 and make sure all the required components are installed and are the correct version. They then need to run the installer script.
 
-* **Start when the system is started:** done by the installer
-* **Run with full network access:** done by the installer
-* **Access USB devices:** done by the installer
+- **Start when the system is started:** done by the installer
+- **Run with full network access:** done by the installer
+- **Access USB devices:** done by the installer
 
-* **Maintaining the Home Assistant installation**
+- **Maintaining the Home Assistant installation**
   Home Assistant can be maintained from the Supervisor. This includes a rollback when the update fails.
 
   - **Python upgrades:** Included in Home Assistant updates
