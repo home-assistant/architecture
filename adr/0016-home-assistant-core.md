@@ -38,7 +38,7 @@ The latest two released minor Python versions are supported (3.7 & 3.8 at the ti
 * **Access USB devices:** This works out of the box.
 
 * **Maintaining the Home Assistant installation**
-  Maintenance can be hard.
+  Maintenance requires more time, effort, skills, and experience than the other methods.
 
   - **Python upgrades:** Home Assistant upgrades Python every year. It can happen that your current operating system doesn’t support the new minimum required version out of the box. In that case, you need to find unofficial Python packages for your system or compile Python from source.
   - **Installing Python dependencies:** Some Python packages need compilation. Users are responsible for having the right compilers and development packages installed.
