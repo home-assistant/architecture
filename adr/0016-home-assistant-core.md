@@ -18,7 +18,7 @@ This is for running just the Home Assistant Core application directly on Python.
 
 - All major Linux distributions, latest stable and major versions.
 - Windows; only using WSL.
-- macOS; Python via Brew.
+- macOS; Python via Homebrew.
 
 ### Supported Python versions
 
