@@ -26,6 +26,12 @@ Running Home Assistant Core is only supported when running the application using
 
 The latest two released minor Python versions are supported (3.7 & 3.8 at the time of writing). Once a new minor Python version is released, the to be dropped minor version will be deprecated for a period of 2 months, after which it will be removed.
 
+### Documentation
+
+Some operating systems will require extra libraries or packages to be installed prior to installing the Python requirements. In this case our documentation shall link to the installation instructions of the Python requirement that requires them.
+
+In case that is not available or possible, we will name the libraries or packages that need to be installed. We do not aim not include installation instructions for every OS.
+
 ### Required Expertise
 
 - **Installation**
