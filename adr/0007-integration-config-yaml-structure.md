@@ -49,6 +49,7 @@ sensor:
 ## Consequences
 
 - New integrations have to put the integration configuration section under the integration domain key if configuration YAML is used.
+- Configuration YAML in platform sections in existing integrations is frozen until the integration is refactored.
 - Integration platforms have to be loaded via `discovery.async_load_platform` or `discovery.load_platform` if not using configuration entries. This is a small increase in complexity for new integration contributions.
 - Decreases the number of breaking changes when an integration wants to add more platforms and move the configuration from a per platform configuration to a centralized integration domain configuration section.
 - Increases the consolidation of Home Assistant Core configuration YAML integration structure; instead of increasing disparity.
