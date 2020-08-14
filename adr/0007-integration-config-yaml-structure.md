@@ -33,6 +33,7 @@ C. Harder for Home Assistant to support confused users and contributors and hard
 ## Decision
 
 We limit the configuration YAML structure to one way for new integrations. We require all YAML configuration, if present, for an integration to be located under the integration domain key in configuration YAML, for all new integrations (point 2 above).
+
 For existing integrations we don't allow changes to YAML configuration in platform sections until the integration has been refactored and the configuration moved under the integration domain key.
 
 ```yaml
