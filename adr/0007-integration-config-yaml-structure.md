@@ -34,6 +34,8 @@ C. Harder for Home Assistant to support confused users and contributors and hard
 
 We limit the configuration YAML structure to one way for new integrations. We require all YAML configuration, if present, for an integration to be located under the integration domain key in configuration YAML, for all new integrations (point 2 above).
 
+For existing integrations we don't allow changes to YAML configuration in platform sections until the integration has been refactored and the configuration moved under the integration domain key.
+
 ```yaml
 # Allowed
 awesome_integration:
@@ -48,6 +50,7 @@ sensor:
 ## Consequences
 
 - New integrations have to put the integration configuration section under the integration domain key if configuration YAML is used.
+- Configuration YAML in platform sections in existing integrations is frozen until the integration is refactored.
 - Integration platforms have to be loaded via `discovery.async_load_platform` or `discovery.load_platform` if not using configuration entries. This is a small increase in complexity for new integration contributions.
 - Decreases the number of breaking changes when an integration wants to add more platforms and move the configuration from a per platform configuration to a centralized integration domain configuration section.
 - Increases the consolidation of Home Assistant Core configuration YAML integration structure; instead of increasing disparity.
