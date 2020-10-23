@@ -24,7 +24,7 @@ Follow are the requirements of a Board:
 It's allow to use some patches as long they only minimal touch the Kernel and marked for upstream.
 
 We support the board so long as possible with Updates as we don't have a downside and we have hardware
-to the sporadic Updates. If there comes the next generation, we provide updates for the old but don't recommend it anymore.
+for the sporadic tests. If there comes the next generation, we provide updates for the old but don't recommend it anymore.
 
 If a board is not supported anymore, they get no Updates from Operating-System or Home Assistant Core and according ADR0015.
 It's recommended to update the Hardware to next Generation or a new Board.
