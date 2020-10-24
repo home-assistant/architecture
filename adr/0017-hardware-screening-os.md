@@ -18,7 +18,7 @@ Follow are the requirements of a Board:
 - The board needs to be available for private customers in most major economic regions
 - The manufacturer produces and sells the boards for at least 3 years
 - The manifacture is know for his continuity
-- The board need to be supported by mainstream Linux kernel with current or next LT
+- The board needs to be supported by the upstream Linux kernel
 - The board need supported by u-boot/barebox bootloader
 
 It's allow to use some patches as long they only minimal touch the Kernel and marked for upstream.
