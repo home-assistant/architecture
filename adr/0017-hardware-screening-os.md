@@ -16,7 +16,7 @@ Also how we deal with old or replaced generation/boards.
 Follow are the requirements of a Board:
 
 - The board need to be available for everbody
-- The manifacture produce and sell the board at least 3 years
+- The manufacturer produces and sells the boards for at least 3 years
 - The manifacture is know for his continuity
 - The board need to be supported by mainstream Linux kernel with current or next LT
 - The board need supported by u-boot/barebox bootloader
