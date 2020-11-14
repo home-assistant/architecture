@@ -25,7 +25,6 @@ Docker CE (Community Edition) is the only supported containerization method for 
 - Docker CE >= 19.03
 - Systemd >= 239
 - NetworkManager >= 1.14.6
-- Avahi >= 0.7
 - AppArmor == 2.13.x (built into the kernel)
 - Debian Linux Debian 10 aka Buster (no derivatives)
 
