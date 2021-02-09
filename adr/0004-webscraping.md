@@ -1,5 +1,5 @@
 # 4. Webscraping
-
+gs
 Date: 2019-06-27
 
 Architecture issue: [#252](https://github.com/home-assistant/architecture/issues/252)
@@ -24,6 +24,10 @@ Webscraping comes with the following downsides:
 - We identify, deprecate for 2 releases and remove integrations that rely on webscraping
 - It will still be possible to have custom integrations provide information via webscraping
 - Generic integration to parse HTML are excluded from this decision
+
+### Exception
+
+An exception is made for the authentication phase. An integration is allowed to extract fields from forms. To make it more robust, data should not be gathered by scraping individual fields but instead scrape all fields at once.
 
 ## Consequences
 
