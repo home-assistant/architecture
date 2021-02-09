@@ -1,4 +1,5 @@
 # 4. Webscraping
+
 Date: 2019-06-27
 
 Architecture issue: [#252](https://github.com/home-assistant/architecture/issues/252)
