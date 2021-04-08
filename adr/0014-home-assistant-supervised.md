@@ -1,6 +1,6 @@
 # 0014. Installation method: Home Assistant Supervised
 
-Date: 2020-06-03
+Date: 2021-05-08
 
 ## Status
 
@@ -20,13 +20,24 @@ This method is considered advanced and should only be used if one is an expert i
 
 ### Supported Operating System, System dependencies and versions
 
-Docker CE (Community Edition) is the only supported containerization method for Home Assistant Supervised. We only support FHS 3.0 on the host file system.
+Docker CE (Community Edition) is the only supported containerization method for Home Assistant Supervised. It can be installed in many different ways, one of them is using the script here https://get.docker.com/ another is adding the repo manually like described here https://www.linode.com/docs/guides/how-to-install-docker-ce-on-debian-10/. We only support FHS 3.0 on the host file system.
 
 - Docker CE >= 19.03
 - Systemd >= 239
 - NetworkManager >= 1.14.6
 - AppArmor == 2.13.x (built into the kernel)
 - Debian Linux Debian 10 aka Buster (no derivatives)
+
+### Required System Packages
+The installer script will check for the following pre-required packages:
+
+- systemctl
+- nmcli
+- apparmor_parser
+- docker
+- jq
+- curl
+- dbus-daemon
 
 Only the above-listed version of Debian Linux is supported for running this installation method. When a new major version of Debian is released, the previous major version is dropped, with a deprecation time of 4 months. An exception to this rule occurs if the new version does not meet the requirements of the Supervisor.
 
