@@ -27,7 +27,6 @@ Docker CE (Community Edition) is the only supported containerization method for 
 - NetworkManager >= 1.14.6
 - AppArmor == 2.13.x (built into the kernel)
 - Debian Linux Debian 10 aka Buster (no derivatives)
-- jq = 1.5
 
 Only the above-listed version of Debian Linux is supported for running this installation method. When a new major version of Debian is released, the previous major version is dropped, with a deprecation time of 4 months. An exception to this rule occurs if the new version does not meet the requirements of the Supervisor.
 
@@ -40,6 +39,7 @@ This installation method can easily be broken if one manages the operating syste
 - No additional software, outside of the Home Assistant ecosystem, is installed.
 - Docker needs to be correctly configured to use overlayfs2 storage and journald as the logging driver.
 - NetworkManager is installed and enabled in systemd.
+- jq is installed.
 
 In case any abnormality is detected that prevents Home Assistant from functioning, the Home Assistant Supervisor will report this to the user and block updates to prevent installations from breaking.
 
