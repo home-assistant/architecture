@@ -17,17 +17,17 @@ Follow are the requirements of a Board:
 
 - The board needs to be available for private customers in most major economic regions
 - The manufacturer produces and sells the boards for at least 3 years
-- The manifacture is know for his continuity
+- The manufacturer is know for his continuity
 - The board needs to be supported by the upstream Linux kernel
 - The board needs to be supported by the upstream u-boot/barebox bootloader
 
-It's allow to use some patches as long they only minimal touch the Kernel and marked for upstream.
+It's allowed to use some patches as long they only minimal touch the Kernel and marked for upstream.
 
-We support the board so long as possible with Updates as we don't have a downside and we have hardware
-for the sporadic tests. If there comes the next generation, we provide updates for the old but don't recommend it anymore.
+We support the board as long as possible with updates so long as we don't have a downside and we have hardware
+for the sporadic tests.  When a next generation is available, we provide updates for the old but don't recommend it anymore.
 
-If a board is not supported anymore, they get no Updates from Operating-System or Home Assistant Core and according ADR0015.
-It's recommended to update the Hardware to next Generation or a new Board.
+If a board is no longer supported, no updates for the operating system or Home Assistant Core will be provided according ADR0015.
+It's recommended to update the hardware to next generation or a new board.
 
 ## Consequences
 
