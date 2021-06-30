@@ -1,6 +1,6 @@
 # 0017. Hardware screening for OS
 
-Date: 2020-10-23
+Date: 2021-06-30
 
 ## Status
 
