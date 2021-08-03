@@ -31,4 +31,4 @@ It's recommended to update the hardware to next generation or a new board.
 
 ## Consequences
 
-All contribution for new Images with not follow this specs are not accepted.
+All contributions for new images must follow these specifications to qualify, but will also need a signoff from the core team to be accepted.
