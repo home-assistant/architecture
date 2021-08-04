@@ -1,10 +1,10 @@
 # 0017. Hardware screening for OS
 
-Date: 2021-06-30
+Date: 2021-08-03
 
 ## Status
 
-Draft
+Accepted
 
 ## Context
 
@@ -19,11 +19,11 @@ Follow are the requirements of a Board:
 - The manufacturer produces and sells the boards for at least 3 years
 - The manufacturer is know for his continuity
 - The board needs to be supported by the upstream Linux kernel
-- The board needs to be supported by the upstream u-boot/barebox bootloader
+- The board needs to be supported by the upstream U-Boot or Barebox boot loader
 
 It's allowed to use some patches as long they only minimal touch the Kernel and marked for upstream.
 
-We support the board as long as possible with updates so long as we don't have a downside and we have hardware
+We support the board as long as possible with updates. We might remove support if we see major downsides or we don't have hardware
 for the sporadic tests.  When a next generation is available, we provide updates for the old but don't recommend it anymore.
 
 If a board is no longer supported, no updates for the operating system or Home Assistant Core will be provided according ADR0015.
