@@ -46,7 +46,7 @@ In case any abnormality is detected that prevents Home Assistant from functionin
 ### Required Expertise
 
 - **Installation**
-  The user first needs to install Debian 10 and make sure all the required components are installed and are the correct version. They then need to run the installer script.
+  The user first needs to install Debian and make sure all the required components are installed and are the correct version. They then need to run the installer script.
 
 - **Start when the system is started:** done by the installer
 - **Run with full network access:** done by the installer
@@ -65,7 +65,7 @@ In case any abnormality is detected that prevents Home Assistant from functionin
   - **Security updates for OS:** Responsibility of the user.
   - **Maintaining the components required for the Supervisor:** Responsibility of the user. Over time as Supervisor requirements change, you might have to upgrade your OS to be able to use the required version.
 
-**Conclusion:** Expert. Maintaining a Debian 10 installation to a very specific set of requirements is hard.
+**Conclusion:** Expert. Maintaining a Debian installation to a very specific set of requirements is hard.
 
 ## Consequences
 
