@@ -26,7 +26,7 @@ Docker CE (Community Edition) is the only supported containerization method for 
 - Systemd >= 239
 - NetworkManager >= 1.14.6
 - AppArmor == 2.13.x (built into the kernel)
-- Debian Linux Debian 10 aka Buster (no derivatives)
+- Debian Linux Debian 11 aka Bullseye (no derivatives)
 - [Home Assistant OS-Agent](https://github.com/home-assistant/os-agent) (Only the [latest release](https://github.com/home-assistant/os-agent/releases/latest) is supported)
 
 Only the above-listed version of Debian Linux is supported for running this installation method. When a new major version of Debian is released, the previous major version is dropped, with a deprecation time of 4 months. An exception to this rule occurs if the new version does not meet the requirements of the Supervisor.
@@ -46,7 +46,7 @@ In case any abnormality is detected that prevents Home Assistant from functionin
 ### Required Expertise
 
 - **Installation**
-  The user first needs to install Debian 10 and make sure all the required components are installed and are the correct version. They then need to run the installer script.
+  The user first needs to install Debian and make sure all the required components are installed and are the correct version. They then need to run the installer script.
 
 - **Start when the system is started:** done by the installer
 - **Run with full network access:** done by the installer
@@ -65,7 +65,7 @@ In case any abnormality is detected that prevents Home Assistant from functionin
   - **Security updates for OS:** Responsibility of the user.
   - **Maintaining the components required for the Supervisor:** Responsibility of the user. Over time as Supervisor requirements change, you might have to upgrade your OS to be able to use the required version.
 
-**Conclusion:** Expert. Maintaining a Debian 10 installation to a very specific set of requirements is hard.
+**Conclusion:** Expert. Maintaining a Debian installation to a very specific set of requirements is hard.
 
 ## Consequences
 
