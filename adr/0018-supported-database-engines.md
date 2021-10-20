@@ -1,4 +1,4 @@
-# 0020. Supported database engines
+# 0020. Supported databases
 
 Date: 2021-10-20
 
@@ -40,7 +40,7 @@ Limit DB-support to the following:
 - PostgreSQL ≥ 12 (2019)
 - SQLite ≥ 3.32.1 (2020)
 
-Start to emit warnings about unsupported database engines in Home Assistant 2021.11, the recorder will fail
+Start to emit warnings about unsupported databases in Home Assistant 2021.11, the recorder will fail
 to start with Home Assistant 2022.2.
 
 The above listed minimal versions may change over time. In case a minimal version bump is required, this will
