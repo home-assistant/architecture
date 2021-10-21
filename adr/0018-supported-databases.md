@@ -33,7 +33,7 @@ in a similar way as we have limited installation types for Home Assistant. This 
 maintenance effort, making it easier to implement and test new features and giving the end-user a better
 experience with reliable upgrades.
 
-Limit DB-support to the following:
+Limit DB support to the following:
 
 - MariaDB ≥ 10.3 (2017)
 - MySQL ≥ 8.0 (2018)
