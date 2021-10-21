@@ -4,7 +4,7 @@ Date: 2021-10-20
 
 ## Status
 
-TBD
+Accepted
 
 ## Context
 
@@ -18,7 +18,7 @@ on by the recorder may work differently, or not at all, in different databases.
 
 As a matter of fact, we have a lot of special handling for the different databases out there, which makes
 maintenance and implementing changes really hard. For contributors, it is impossible to test changes against
-all database services SQLAlchemey could work with. This often causes bugs being reported for the less common
+all database services SQLAlchemy could work with. This often causes bugs being reported for the less common
 databases after a new release.
 
 TL;DR: We advertise a lot of different databases being supported, without version limitation mentioned. This
