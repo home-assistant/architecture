@@ -38,7 +38,7 @@ Limit DB support to the following:
 - MariaDB ≥ 10.3 (2017)
 - MySQL ≥ 8.0 (2018)
 - PostgreSQL ≥ 12 (2019)
-- SQLite ≥ 3.32.1 (2020)
+- SQLite ≥ 3.31.0 (2020)
 
 Start to emit warnings about unsupported databases in Home Assistant 2021.11, the recorder will fail
 to start with Home Assistant 2022.2.
