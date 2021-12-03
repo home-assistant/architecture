@@ -10,7 +10,7 @@ Accepted
 
 The backend has only one API endpoint to fetch translations: `frontend/get_translations`. It takes no parameters. This needs to load all relevant translations. Because of config flows, relevant translations are all translations of all our currently loaded integrations PLUS any integration that has a config flow.
 
-With so many integrations with config flows, this API call is getting huge. On current dev, the response is 142KB! ([truncated example](https://hastebin.com/raw/aturojejez))
+With so many integrations with config flows, this API call is getting huge. On current dev, the response is 142KB!
 
 Our main translation files (`strings.json`) is keyed by "area" where they are used. There is:
 - `config` for config flow
