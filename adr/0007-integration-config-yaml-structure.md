@@ -47,6 +47,10 @@ sensor:
     username: user
 ```
 
+### Exceptions
+
+- Implementing an optional `unique_id` configuration key to set the unique ID of the entity created by the platform is allowed.
+
 ## Consequences
 
 - New integrations have to put the integration configuration section under the integration domain key if configuration YAML is used.
