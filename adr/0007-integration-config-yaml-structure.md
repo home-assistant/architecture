@@ -49,7 +49,7 @@ sensor:
 
 ### Exceptions
 
-- Implementing an optional `unique_id` configuration key to set the unique ID of the entity created by the platform is allowed.
+- For integrations that do not fall under [ADR-0010](https://github.com/home-assistant/architecture/blob/master/adr/0010-integration-configuration.md), implementing an optional `unique_id` configuration key to set the unique ID of the entity created by the platform is allowed.
 
 ## Consequences
 
