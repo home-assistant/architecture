@@ -47,6 +47,10 @@ sensor:
     username: user
 ```
 
+### Exceptions
+
+- For integrations that do not fall under [ADR-0010](https://github.com/home-assistant/architecture/blob/master/adr/0010-integration-configuration.md), implementing an optional `unique_id` configuration key to set the unique ID of the entity created by the platform is allowed.
+
 ## Consequences
 
 - New integrations have to put the integration configuration section under the integration domain key if configuration YAML is used.
