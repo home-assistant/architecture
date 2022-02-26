@@ -59,7 +59,7 @@ In the following cases, code ownership may be omitted:
 
 - Contributions that solely provides a bug fix(es).
 - Contributions that only provide additional unit test(s).
-- Contributions to integrations marked as "internal". These integrations are code owned by the Home Assistant core team.
+- Contributions to integrations marked as "internal". These integrations are mostly but not always code owned by the Home Assistant core team.
 - Contributions refactoring across multiple integrations, caused by changes to our core codebase. E.g., due to changes to the used platforms.
 - Small or low impact contributions to an integration. A currently active code owner for the integration or a Home Assistant code reviewer can decide it may be omitted.
 - The contributor pro-actively rejects to be listed as a code owner; however, a currently active code owner is willing to accept and take code ownership for the contribution provided by the contributor.
