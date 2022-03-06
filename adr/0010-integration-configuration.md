@@ -88,9 +88,9 @@ the expectations of our users to a full extent.
 To protect project goals and to provide clarity to our users and contributors,
 we’re introducing the following rules on how integrations need to be configured:
 
-- Integrations that communicate with devices and/or services are configured via
-  a config flow. In rare cases, we can make an exception.
-- All other integrations are configured via YAML or via Storage Collections.
+- Integrations that communicate with devices and/or services are only configured via
+  the UI. In rare cases, we can make an exception.
+- All other integrations are configured via YAML or via the UI.
 
 These rules apply to all new integrations. Existing integrations that should
 not have a YAML configuration, are allowed and encouraged to implement a
