@@ -38,7 +38,7 @@ This installation method can easily be broken if one manages the operating syste
 - The operating system is dedicated to running Home Assistant Supervised.
 - All system dependencies are installed according to the manual.
 - No additional software, outside of the Home Assistant ecosystem, is installed.
-- Docker needs to be correctly configured to use overlayfs2 storage and journald as the logging driver.
+- Docker needs to be correctly configured to use overlayfs2 storage, journald as the logging driver, and cgroup v1.
 - NetworkManager is installed and enabled in systemd.
 
 In case any abnormality is detected that prevents Home Assistant from functioning, the Home Assistant Supervisor will report this to the user and block updates to prevent installations from breaking.
