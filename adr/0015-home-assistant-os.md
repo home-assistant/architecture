@@ -31,7 +31,7 @@ This is the generally recommended installation method and the one that our websi
 
 ### Supported Operating Systems and versions
 
-This installation method is only available and supported using the Home Assistant Operating System. Only the latest major version is supported (Currently, 8.x).
+This installation method is only available and supported using the Home Assistant Operating System. Only the latest major version is supported.
 
 When a new major version is released, the previous major version will be dropped with a deprecation period of 2 months. The last 3 minor releases are supported.
 
