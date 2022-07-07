@@ -22,7 +22,7 @@ This method is considered advanced and should only be used if one is an expert i
 
 Docker CE (Community Edition) is the only supported containerization method for Home Assistant Supervised. We only support FHS 3.0 on the host file system.
 
-- Docker CE >= 19.03
+- Docker CE >= 20.10
 - Systemd >= 239
 - NetworkManager >= 1.14.6
 - AppArmor == 2.13.x (built into the kernel)
