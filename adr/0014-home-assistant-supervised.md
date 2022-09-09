@@ -22,9 +22,10 @@ This method is considered advanced and should only be used if one is an expert i
 
 Docker CE (Community Edition) is the only supported containerization method for Home Assistant Supervised. We only support FHS 3.0 on the host file system.
 
-- Docker CE >= 20.10
+- Docker CE >= 20.10.17
 - Systemd >= 239
 - NetworkManager >= 1.14.6
+- udisks2 >= 2.8
 - AppArmor == 2.13.x (built into the kernel)
 - Debian Linux Debian 11 aka Bullseye (no derivatives)
 - [Home Assistant OS-Agent](https://github.com/home-assistant/os-agent) (Only the [latest release](https://github.com/home-assistant/os-agent/releases/latest) is supported)
@@ -38,8 +39,9 @@ This installation method can easily be broken if one manages the operating syste
 - The operating system is dedicated to running Home Assistant Supervised.
 - All system dependencies are installed according to the manual.
 - No additional software, outside of the Home Assistant ecosystem, is installed.
-- Docker needs to be correctly configured to use overlayfs2 storage, journald as the logging driver, and cgroup v1.
+- Docker needs to be correctly configured to use overlayfs2 storage, journald as the logging driver with Container name as Tag, and cgroup v1.
 - NetworkManager is installed and enabled in systemd.
+- Systemd journal gateway is enabled and mapped into supervisor as `/run/systemd-journal-gatewayd.sock`
 
 In case any abnormality is detected that prevents Home Assistant from functioning, the Home Assistant Supervisor will report this to the user and block updates to prevent installations from breaking.
 
