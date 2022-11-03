@@ -26,6 +26,7 @@ Docker CE (Community Edition) is the only supported containerization method for 
 - Systemd >= 239
 - NetworkManager >= 1.14.6
 - udisks2 >= 2.8
+- systemd-journal-remote >= 239
 - AppArmor == 2.13.x (built into the kernel)
 - Debian Linux Debian 11 aka Bullseye (no derivatives)
 - [Home Assistant OS-Agent](https://github.com/home-assistant/os-agent) (Only the [latest release](https://github.com/home-assistant/os-agent/releases/latest) is supported)
