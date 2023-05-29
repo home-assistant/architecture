@@ -29,4 +29,4 @@ The minimal supported micro/patch Python version is decided on a minor version b
 
 ## Consequences
 
-We have three installation methods that are based on Docker containers (Home Assistant OS, Container, and Supervised), which are maintained and kept up to date by the Home Assistant project. A significant majority of our user base uses this installation method. For users using a Python environment, they need to upgrade their Python version at least once a year, instead of once every two years.
+We have three installation methods that are based on Docker containers (Home Assistant OS, Container, and Supervised), which are maintained and kept up to date by the Home Assistant project. A significant majority of our user base uses these installation methods. For users using the Core installation method (running their own a Python environment), they need to upgrade their Python version at least once a year.
