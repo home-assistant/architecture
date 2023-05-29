@@ -6,7 +6,7 @@ Architecture issue: [#167](https://github.com/home-assistant/architecture/issues
 
 ## Status
 
-Superseded by [ADR-0020](./0020-minimum-supported-python-version%20copy.md)
+Superseded by [ADR-0020](./0020-minimum-supported-python-version.md)
 
 ## Context
 
