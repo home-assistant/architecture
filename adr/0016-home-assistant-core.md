@@ -24,7 +24,7 @@ This is for running just the Home Assistant Core application directly on Python.
 
 Running Home Assistant Core is only supported when running the application using the official Python virtual environment. Running Home Assistant Core without a virtual environment, system/globally installed Python packages, is not supported.
 
-The latest two released minor Python versions are supported (3.7 & 3.8 at the time of writing). Once a new minor Python version is released, the to be dropped minor version will be deprecated for a period of 2 months, after which it will be removed.
+Details on the supported Python versions are defined in [ADR-0020](./0020-minimum-supported-python-version.md).
 
 ### Documentation
 
