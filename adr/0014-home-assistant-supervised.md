@@ -27,7 +27,7 @@ Docker CE (Community Edition) is the only supported containerization method for 
 - NetworkManager >= 1.14.6
 - udisks2 >= 2.8
 - AppArmor == 2.13.x (built into the kernel)
-- Debian Linux Debian 11 aka Bullseye (no derivatives)
+- Debian Linux Debian 12 aka Bookworm (no derivatives)
 - [Home Assistant OS-Agent](https://github.com/home-assistant/os-agent) (Only the [latest release](https://github.com/home-assistant/os-agent/releases/latest) is supported)
 
 Only the above-listed version of Debian Linux is supported for running this installation method. When a new major version of Debian is released, the previous major version is dropped, with a deprecation time of 4 months. An exception to this rule occurs if the new version does not meet the requirements of the Supervisor.
