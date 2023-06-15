@@ -27,14 +27,14 @@ set to at least 6 months (being 6 release cycles at the time of writing).
 
 Additionally, the following requirements for deprecation are set:
 
-- If a migration (for example, using n config flow import) is possible, it
+- If a migration (for example, using a config flow import) is possible, it
   becomes required to add a migration. If migration has failed, this must be
   reflected by raising a repair issue on what happened and what a user has
   to do to resolve the issue.
 
 - Using deprecated YAML integration configuration options must raise an
   issue in the users' repairs dashboard. This issue should explain why
-  this happens and what a user has to do to resolve the issue. In case an
+  this happens and what a user has to do to resolve the issue. In case a
   migration is available, this message should only be shown after a
   successful migration.
 
