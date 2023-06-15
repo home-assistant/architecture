@@ -40,7 +40,7 @@ Additionally, the following requirements for deprecation are set:
 
 ## Consequences
 
-- We need to keep around imports and deprecated YAML configuration options
+- We need to keep imports and deprecated YAML configuration options
   around longer.
 - The risk of a user running into a breaking change by skipping a couple of
   releases will be reduced.
