@@ -18,16 +18,20 @@ This is the generally recommended installation method and the one that our websi
 
 ### Supported boards/hardware/machines
 
-- Raspberry Pi 3 Model B and B+ 32bit
-- Raspberry Pi 3 Model B and B+ 64bit
-- Raspberry Pi 4 Model B 32bit
-- Raspberry Pi 4 Model B 64bit
+- Home Assistant Yellow
+- Home Assistant Green
+- Raspberry Pi 3 Model B and B+ 32-bit
+- Raspberry Pi 3 Model B and B+ 64-bit
+- Raspberry Pi 4 Model B 32-bit
+- Raspberry Pi 4 Model B 64-bit
 - Tinkerboard
 - ODROID-C2
+- ODROID-C4
 - ODROID-N2
+- ODROID-M1
 - ODROID-XU4
-- Intel NUC
-- Virtual Machine (64 bits intel-based)
+- Bare-metal on x86-64 PCs (e.g. Intel NUC, via `generic-x86-64` image)
+- Virtual Machine (x86-64/AMD64 based by `ova` image)
 
 ### Supported Operating Systems and versions
 
@@ -39,17 +43,17 @@ When a new major version is released, the previous major version will be dropped
 
 The Home Assistant Operating System can be run on a Hypervisor and thus be run as a virtual machine. The following Hypervisors are supported:
 
+- KVM/QEMU
 - VirtualBox
 - VMWare
 - Xen
-- Qemu
 
 We will provide documentation for the following systems build on top of these technologies:
 
+- Proxmox (KVM/QEMU based)
+- Unraid (KVM/QEMU based)
 - VirtualBox
 - VMWare
-- Proxmox
-- UnRaid
 
 ### Required Expertise
 
