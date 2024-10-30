@@ -16,9 +16,9 @@ Here is a quick overview of the different tiers in the quality integration scale
 
 🥉 Bronze: This is the baseline standard and requirement for all new integrations added to Home Assistant. The integration can be configured via the UI, and there is documentation on how to set it up.
 
-🥈 Silver: Enhanced reliability and robustness of the integration, ensuring a solid runtime experience. The integration handles errors correctly, including authentication errors and offline devices. The documentation provides more information on what the integration exactly provides. The integration has one or more code owners who help to maintain the integration and ensure this runtime experience lasts.
+🥈 Silver: Enhanced reliability and robustness of the integration, ensuring a solid runtime experience. The integration handles errors correctly, including authentication errors and offline devices. The documentation provides more information on what the integration provides. The integration has one or more code owners who help to maintain the integration and ensure this runtime experience lasts.
 
-🥇 Gold: The gold standard in delivering the best possible user experience with advanced features and comprehensive support. They are fully featured, user-friendly, and accessible to a wider audience. It is fully translated, capable of discovering their devices, providing device updates through Home Assistant, and has extensive documentation with examples, use cases, and troubleshooting. They provide means for debugging issues and can be fully adjusted through the UI.
+🥇 Gold: The gold standard in delivering the best possible user experience with advanced features and comprehensive support. The integration is fully featured, user-friendly, and accessible to a wider audience. It is fully translated, capable of discovering its devices, providing device updates through Home Assistant, and has extensive documentation with examples, use cases, and troubleshooting. The integration provides means for debugging issues and can be fully adjusted through the UI.
 
 🏆 Platinum: The epitome of quality within Home Assistant. Not only does this integration provide an outstanding user experience, but it also adheres to the highest technical standards with optimized performance, efficiency, and code quality.
 
@@ -26,7 +26,7 @@ Besides the four scaled tiers above, we also have four additional special tiers:
 
 ❓ No score: An integration that is available via the UI but has not been evaluated against the integration quality scale or does not meet the minimum requirements for scoring.
 
-🏠 Internal: This is an integration used internally by Home Assistant to provide basic components and building blocks for the core program of Home Assistant or for other integrations to built on. The Home Assistant project maintains these.
+🏠 Internal: This is an integration used internally by Home Assistant to provide basic components and building blocks for the core program of Home Assistant or for other integrations to build on. The Home Assistant project maintains integrations of this level.
 
 💾 Legacy: An older integration that has not yet transitioned to the Home Assistant user interface and lacks modern (nowadays considered normal) features.
 
@@ -36,33 +36,23 @@ Besides the four scaled tiers above, we also have four additional special tiers:
 
 ### Scaled tiers
 
-Home Assistant integration quality scale has four differentiated tiers to which integration can be graded: 🥉 Bronze, 🥈 Silver, 🥇 Gold, and 🏆 Platinum.
+Home Assistant integration quality scale has four differentiated tiers to which an integration can be graded: 🥉 Bronze, 🥈 Silver, 🥇 Gold, and 🏆 Platinum.
 
 Each tier builds on the previous tier; for example, “Silver” has everything required by “Bronze”, and “Gold” has everything both “Silver” and “Bronze” require.
 
 While some integrations may not be graded in the top tier, they might still implement parts of other (higher grade) tiers.
 
 #### 🥉 Bronze
-The bronze tier is the baseline standard and requirement for all new integrations. It meets the minimum requirements in code quality, functionality, and user experience. It complies with the fundamental expectations and provides a reliable foundation for users to interact with their devices and services.
 
-The documentation provides guidelines for setting up the integration directly from the Home Assistant user interface.
-
-From a technical perspective, this integration has been reviewed to comply with all baseline standards, which we require for all new integrations, including automated tests for setting up the integration.
-
-Characteristics:
+The bronze tier has the following characteristics:
 - Can be easily set up through the UI.
 - The source code adheres to basic coding standards and development guidelines.
 - Automated tests that guard this integration can be configured correctly.
 - Offers basic end-user documentation that is enough to get users started step-by-step easily.
 
 #### 🥈 Silver
-The silver tier builds upon the “Bronze” level by improving the reliability and robustness of integrations, ensuring a solid runtime experience. It ensures an integration handles errors properly, such as when authentication to a device or service fails, handles offline devices, and other errors.
 
-The documentation for these integrations provides information on what is available in Home Assistant when this integration is used, as well as troubleshooting information when issues occur.
-
-This integration has one or more active code owners who help maintain it to ensure the experience on this level lasts now and in the future.
-
-Characteristics:
+The silver tier has the following characteristics:
 - Provides everything “Bronze” has.
 - Provides a stable user experience under various conditions.
 - Has one or more active code owners who help maintain the integration.
@@ -71,21 +61,8 @@ Characteristics:
 - Offers detailed documentation detailing what the integration provides and instructions on troubleshooting issues.
 
 #### 🥇 Gold
-The gold standard in integration user experience, providing extensive and comprehensive support for the integrated devices & services. A gold-tier integration aims to be user-friendly, fully featured, and accessible to a wider audience.
 
-When possible, devices are automatically discovered for an easy and seamless setup, and their firmware/software can be directly updated from Home Assistant.
-
-All provided devices and entities are named logically and fully translatable, and they have been properly categorized and enabled for long-term statistical use.
-
-The documentation for these integrations is extensive, and primarily aimed toward end-users and understandable by non-technical consumers. Besides providing general information on the integration, the documentation provides possible example use cases, a list of compatible devices, a list of described entities the integration provides, and extensive descriptions and usage examples of available actions provided by the integration. The use of example automations, dashboards, available Blueprints, and links to additional external resources, is highly encouraged as well.
-
-The integration provides means for debugging issues, including downloading diagnostic information and documenting troubleshooting instructions. If needed, the integration can be reconfigured via the UI.
-
-From a technical perspective, the integration needs to have full automated test coverage of its codebase to ensure the set integration quality is maintained now and in the future.
-
-All integrations that have devices in the Works with Home Assistant program are at least required to have this tier.
-
-Characteristics:
+The gold tier has the following characteristics:
 - Provides everything “Silver” has.
 - Has the best end-user experience an integration can offer; streamlined and intuitive.
 - Can be automatically discovered, simplifying the integration setup.
@@ -98,9 +75,8 @@ Characteristics:
 - Required level for integrations providing devices in the Works with Home Assistant program.
 
 #### 🏆 Platinum
-Platinum is the highest tier an integration can reach, the epitome of quality within Home Assistant. It not only provides the best user experience but also achieves technical excellence by adhering to the highest standards, supreme code quality, and well-optimized performance and efficiency.
 
-Characteristics:
+The platinum tier has the following characteristics:
 - Provides everything “Gold” has.
 - All source code follows all coding and Home Assistant integration standards and best practices and is fully typed with type annotations and clear code comments for better code clarity and maintenance.
 - A fully asynchronous integration code base ensures efficient operation.
