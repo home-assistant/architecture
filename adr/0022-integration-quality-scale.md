@@ -166,4 +166,4 @@ When a device (or devices) are all removed from integration, the grandfathered f
 ## Consequences
 
 - A clear and transparent framework for contributors to understand the quality expectations for their integrations.
-- An increased pressure on developer documentation to make sure it is up-to-date.
+- An increased emphasis on developer documentation to make sure it is up-to-date.
