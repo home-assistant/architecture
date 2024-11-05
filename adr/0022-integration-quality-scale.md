@@ -101,8 +101,6 @@ Characteristics:
 #### 🏠 Internal
 This tier is assigned to integrations used internally by Home Assistant. These integrations provide basic components and building blocks for Home Assistant's core program or for other integrations to build on top of it.
 
-Everything in Home Assistant is extendable using integrations. In fact, Home Assistant uses its own integration logic to extend base functionality. For example, the automation engine of Home Assistant is an integration. Those internal parts are thus marked with this “Internal” tier.
-
 Internal integrations are maintained by the Home Assistant project and subjected to strict architectural design procedures.
 
 Characteristics:
@@ -146,7 +144,7 @@ Once the Home Assistant core team reviews and approves it, the integration will 
 Besides upgrading an integration to a higher tier on the scale, it is also possible for an integration to be downgraded to a lower tier. This can, for example, happen when there is no longer an active integration code owner. In this specific example, the integration will be downgraded to “Bronze,” even if it otherwise fully complies with the “Platinum” tier.
 
 ### Adjustments to rules contained in each tier
-The world of IoT and all technologies used by Home Assistant are changing at a fast pace. Not just in terms of what Home Assistant can support or do, but also the software Home Assistant is built upon is constantly innovated. Home Assistant is pioneering the technology in the industry at a fast pace.
+The world of IoT and all technologies used by Home Assistant are changing at a fast pace; not just in terms of what Home Assistant can support or do, but also in terms of the software on which Home Assistant is built, which is constantly innovating. Home Assistant is pioneering the technology in the industry at a fast pace.
 
 This also means that new insights and newly developed and adopted best practices will occur over time, resulting in new additions and improvements to the individual integration quality scale rules.
 
