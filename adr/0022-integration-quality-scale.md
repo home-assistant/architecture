@@ -88,6 +88,7 @@ Besides the four scaled tiers mentioned above, Home Assistant also provides four
 Note that while an integration might have been given one of these special tiers, they still might pursue the integration quality equivalent to any of the other scaled tiers.
 
 #### ❓ No score
+
 These integrations can be set up through the Home Assistant user interface. The “No score” designation doesn’t imply that they are bad or buggy, instead, it indicates that they haven’t been assessed according to the quality scale or that they need some maintenance to reach the now-considered minimum “Bronze” standard.
 
 The “No score” tier cannot be assigned to new integrations, as they are required to have at least a “Bronze” level when introduced. The Home Assistant project encourages the community to help update these integrations without a score to meet at least the “Bronze” level requirements.
@@ -99,6 +100,7 @@ Characteristics:
 - Documentation most often provides only basic setup steps.
 
 #### 🏠 Internal
+
 This tier is assigned to integrations used internally by Home Assistant. These integrations provide basic components and building blocks for Home Assistant's core program or for other integrations to build on top of it.
 
 Internal integrations are maintained by the Home Assistant project and subjected to strict architectural design procedures.
@@ -109,6 +111,7 @@ Characteristics:
 - Maintained by the Home Assistant project.
 
 #### 💾 Legacy
+
 Legacy integrations are older integrations that have been part of Home Assistant for many years, possibly since its inception. They can only be configured through YAML files and often lack active maintainers (code owners). These integrations might be complex to set up and do not adhere to current/modern end-user expectations in their use and features.
 
 The Home Assistant project encourages the community to help migrate these integrations to the UI and update them to meet modern standards, making these integrations accessible to everyone.
@@ -120,6 +123,7 @@ Characteristics:
 - Documentation may still be aimed at developers.
 
 #### 📦 Custom
+
 Custom integrations are developed and distributed by the community, and offer additional functionalities and support for devices and services to Home Assistant. These integrations are not included in the official Home Assistant releases and can be installed manually or via third-party tools like HACS (Home Assistant Community Store).
 
 The Home Assistant project does not review, security audit, maintain, or support third-party custom integrations. Users are encouraged to exercise caution and review the custom integration’s source and community feedback before installation.
@@ -135,6 +139,7 @@ Characteristics:
 - Documentation may be limited.
 
 ### Adjusting the tier of an integration
+
 Home Assistant encourages our contributors to get their integrations to the highest possible tier, to provide an excellent coding experience for our contributors and the best experience for our users.
 
 When an integration reaches the minimum requirements for a certain tier, a contributor can open a pull request to adjust the scale for the integration. This request needs to be accompanied by the full checklist for each rule of scale (including all rules of lower tiers), demonstrating that it has met those requirements.
@@ -144,6 +149,7 @@ Once the Home Assistant core team reviews and approves it, the integration will 
 Besides upgrading an integration to a higher tier on the scale, it is also possible for an integration to be downgraded to a lower tier. This can, for example, happen when there is no longer an active integration code owner. In this specific example, the integration will be downgraded to “Bronze”, even if it otherwise fully complies with the “Platinum” tier.
 
 ### Adjustments to rules contained in each tier
+
 The world of IoT and all technologies used by Home Assistant are changing at a fast pace; not just in terms of what Home Assistant can support or do, but also in terms of the software on which Home Assistant is built. Home Assistant is pioneering the technology in the industry at a fast pace.
 
 This also means that new insights and newly developed and adopted best practices will occur over time, resulting in new additions and improvements to the individual integration quality scale rules.
