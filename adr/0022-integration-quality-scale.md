@@ -170,4 +170,4 @@ When all devices are removed from the Works with Home Assistant program of a gra
 
 The integration quality scale will:
 - give a clear and transparent framework for contributors to understand the quality expectations for their integrations.
-- put pressure on the maintenance of the developer documentation to make sure the documentation is up-to-date.
+- put pressure on the maintenance of the developer documentation to make sure the documentation is up-to-date. These can be found [here](https://developers.home-assistant.io/docs/core/integration-quality-scale/).
