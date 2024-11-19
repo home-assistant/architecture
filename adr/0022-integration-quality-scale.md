@@ -141,7 +141,7 @@ When an integration reaches the minimum requirements for a certain tier, a contr
 
 Once the Home Assistant core team reviews and approves it, the integration will display the new tier as of the next major release of Home Assistant.
 
-Besides upgrading an integration to a higher tier on the scale, it is also possible for an integration to be downgraded to a lower tier. This can, for example, happen when there is no longer an active integration code owner. In this specific example, the integration will be downgraded to “Bronze,” even if it otherwise fully complies with the “Platinum” tier.
+Besides upgrading an integration to a higher tier on the scale, it is also possible for an integration to be downgraded to a lower tier. This can, for example, happen when there is no longer an active integration code owner. In this specific example, the integration will be downgraded to “Bronze”, even if it otherwise fully complies with the “Platinum” tier.
 
 ### Adjustments to rules contained in each tier
 The world of IoT and all technologies used by Home Assistant are changing at a fast pace; not just in terms of what Home Assistant can support or do, but also in terms of the software on which Home Assistant is built, which is constantly innovating. Home Assistant is pioneering the technology in the industry at a fast pace.
