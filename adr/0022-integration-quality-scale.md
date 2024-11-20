@@ -1,6 +1,6 @@
 # 22. Integration quality scale
 
-Date: yyyy-mm-dd
+Date: 2024-11-20
 
 ## Status
 
