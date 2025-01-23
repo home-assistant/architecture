@@ -2,6 +2,9 @@
 
 Date: 2020-06-08
 
+Changelog:
+ - 2025-01-23 Updated the list of hardware whose support was added in the meantime
+
 ## Status
 
 Accepted
