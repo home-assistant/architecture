@@ -4,6 +4,7 @@ Date: 2020-06-08
 
 Changelog:
  - 2025-01-23 Updated the list of hardware whose support was added in the meantime
+ - 2025-09-29 Added Khadas VIM3 which was unintentionally left out in the previous update
 
 ## Status
 
@@ -30,6 +31,7 @@ This is the generally recommended installation method and the one that our websi
 - Raspberry Pi 5 Model B 64-bit
 - ASUS Tinker Board
 - ASUS Tinker Board S
+- Khadas VIM3
 - ODROID-C2
 - ODROID-C4
 - ODROID-N2/N2+
