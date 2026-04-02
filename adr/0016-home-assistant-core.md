@@ -4,7 +4,10 @@ Date: 2020-07-01
 
 ## Status
 
-Accepted
+Reverted by [discussion #1197](https://github.com/home-assistant/architecture/discussions/1197).
+
+Home Assistant Core is no longer an officially supported installation method.
+Users are encouraged to migrate to Home Assistant OS or Home Assistant Container.
 
 ## Context
 
