@@ -4,7 +4,10 @@ Date: 2020-06-03
 
 ## Status
 
-Accepted
+Reverted by [discussion #1198](https://github.com/home-assistant/architecture/discussions/1198).
+
+Home Assistant Supervised is no longer an officially supported installation method.
+Users are encouraged to migrate to Home Assistant OS or Home Assistant Container.
 
 ## Context
 
