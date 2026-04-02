@@ -5,6 +5,7 @@ Date: 2020-06-08
 Changelog:
  - 2025-01-23 Updated the list of hardware whose support was added in the meantime
  - 2025-09-29 Added Khadas VIM3 which was unintentionally left out in the previous update
+ - 2026-04-02 Removed armv7-only boards (Raspberry Pi 32-bit, ASUS Tinker Board, ODROID-XU4)
 
 ## Status
 
@@ -24,20 +25,15 @@ This is the generally recommended installation method and the one that our websi
 
 - Home Assistant Yellow (with CM4 and CM5 modules)
 - Home Assistant Green
-- Raspberry Pi 3 Model B and B+ 32-bit
 - Raspberry Pi 3 Model B and B+ 64-bit
-- Raspberry Pi 4 Model B 32-bit
 - Raspberry Pi 4 Model B 64-bit
 - Raspberry Pi 5 Model B 64-bit
-- ASUS Tinker Board
-- ASUS Tinker Board S
 - Khadas VIM3
 - ODROID-C2
 - ODROID-C4
 - ODROID-N2/N2+
 - ODROID-M1
 - ODROID-M1S
-- ODROID-XU4
 - Bare-metal on x86-64 PCs (e.g. Intel NUC, via `generic-x86-64` image) on best effort basis (i.e. not all x86-64 machines are guaranteed to be supported fully)
 - Virtual Machine (x86-64/AMD64-based by `ova` image, AArch64/ARM64-based by `generic-aarch64` image)
 

@@ -2,6 +2,9 @@
 
 Date: 2020-06-03
 
+Changelog:
+ - 2026-04-02 Removed armhf, i386, and armv7 from the list of supported architectures
+
 ## Status
 
 Accepted
@@ -24,7 +27,7 @@ The only supported way to run the container is on the host network as root with 
 
 ### Supported boards/hardware/machines
 
-- Machines of the following architectures: amd64, i386, armhf, aarch64, armv7
+- Machines of the following architectures: amd64, aarch64
 
 ### Supported Operating Systems and versions
 
