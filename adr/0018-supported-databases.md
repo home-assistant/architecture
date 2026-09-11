@@ -35,13 +35,13 @@ experience with reliable upgrades.
 
 Limit DB support to the following:
 
-- MariaDB: LTS versions which have not reached EoL; no support for non-LTS versions.
-- MySQL: LTS versions which have not reached EoL; no support for non-LTS versions.
-- PostgreSQL: Versions which have not reached EoL.
+- MariaDB: LTS versions which have not reached EoL according to [MariaDB's release cycle](https://endoflife.date/mariadb); no support for non-LTS versions.
+- MySQL: LTS versions which have not reached EoL according to [MySQL's release cycle](https://endoflife.date/mysql); no support for non-LTS versions.
+- PostgreSQL: Versions which have not reached EoL according to [PostgreSQL's release cycle](https://endoflife.date/postgresql).
 - SQLite: The version used by container builds.
 
 Notes:
-- For MariaDB and MySQL LTS versions we consider a version EoL when it is EoL for non paying tiers.
+- For MariaDB and MySQL LTS versions we consider a version EoL when it is EoL for non-paying tiers.
 - The above listed minimal version scheme may change over time.
 - When a minimal version bump is required, this will be announced as a breaking change as well as a repair, with a deprecation period of 6 release cycles (6 months).
 
