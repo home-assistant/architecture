@@ -41,7 +41,7 @@ Limit DB support to the following:
 - SQLite: The version used by container builds.
 
 Notes:
-- For MariaDB and MySQL LTS versions we consider a version EoL when it is EoL for non paying tiers-
+- For MariaDB and MySQL LTS versions we consider a version EoL when it is EoL for non paying tiers.
 - The above listed minimal version scheme may change over time.
 - When a minimal version bump is required, the will be announced as a breaking change as well as a repair, with a depreciation period of 6 release cycles (6 months).
 
