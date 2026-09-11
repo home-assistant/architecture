@@ -10,7 +10,7 @@ This proposes three tiers of LLM API:
 | --- | --- | --- |
 | `assist` | Control and read exposed entities. Unchanged. | Any user, voice included. |
 | `management` | Manage Home Assistant itself. Search the registries, read logs, create automations. | Administrators. |
-| `<integration>` | One integration's own domain. For example `knx` or `modbus`. | Administrators. |
+| `<integration>` | One external ecosystem that an integration brings into Home Assistant. For example Z-Wave, KNX or Music Assistant. | Administrators. |
 
 A user then selects one or more APIs per consumer. The `mcp_server` integration already does this, so a user can build the tool set an external agent gets. A later chat UI change can let a user turn an API on or off per conversation, the way Claude and ChatGPT do.
 
@@ -40,7 +40,13 @@ Tools that act on Home Assistant as a system:
 Tools that do not go in `management`:
 
 - Controlling entities. That stays `assist`.
-- Anything specific to one integration. That goes in that integration's own API.
+- Anything that belongs to an external ecosystem. That goes in that ecosystem's own API.
+
+### Which integrations get their own API
+
+An integration gets its own API when it brings in an external ecosystem, and that ecosystem has concepts and operations Home Assistant itself does not have. Z-Wave, KNX, Zigbee and Music Assistant are the examples. Healing a Z-Wave node, reading a KNX group address and inspecting a Music Assistant queue mean nothing outside those ecosystems, so Home Assistant cannot model them.
+
+The test is the ecosystem, not the code owner. Automations, scripts and scenes each live in their own integration, but they are part of Home Assistant itself. Their tools go in `management`. The same holds for the registries, the logs and config entries.
 
 ## The part that needs a decision: permissions
 
